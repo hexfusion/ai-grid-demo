@@ -331,6 +331,12 @@ const viz = new FlowStory(document.getElementById('fs-canvas'), {
   themeBtn: document.getElementById('fs-theme'),
 });
 
+const _roundRect = CanvasRenderingContext2D.prototype.roundRect;
+CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
+  return _roundRect.call(this, x, y, w, h, typeof r === 'number' ? Math.max(0, r) : r);
+};
+while (innerWidth < 400 || innerHeight < 100) await new Promise((r) => setTimeout(r, 200));
+
 window.__flowstory = viz;
 
 try {
