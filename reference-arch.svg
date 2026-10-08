@@ -6,9 +6,9 @@
     <marker id="sl" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#9A9AA8"/></marker>
     <marker id="grn" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#3DDC84"/></marker>
   </defs>
-  <!-- us-west-1 -->
+  <!-- Seattle -->
   <rect x="234" y="24" width="220" height="124" rx="6" fill="#22222C" stroke="#6A6A78" stroke-width="2"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="246" y="46" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">us-west-1</text>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="246" y="46" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">Seattle</text>
   <rect x="246" y="56" width="196" height="30" rx="6" fill="#1A1A22" stroke="#6F9AD6" stroke-width="1.5"/>
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="344" y="75.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Qwen3-Coder-30B</text>
   <rect x="246" y="104" width="72" height="30" rx="6" fill="#26262E" stroke="#A06EE0" stroke-width="1.5"/>
@@ -17,9 +17,9 @@
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="412" y="124" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">EPP</text>
   <line x1="320" y1="125" x2="377" y2="125" stroke="#6F9AD6" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#blu)"/>
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="350" y="116" font-size="11.5" font-weight="700" fill="#6F9AD6" text-anchor="middle">ext_proc</text>
-  <!-- eu-central-1 -->
+  <!-- Portland -->
   <rect x="478" y="24" width="220" height="124" rx="6" fill="#22222C" stroke="#6A6A78" stroke-width="2"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="490" y="46" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">eu-central-1</text>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="490" y="46" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">Portland</text>
   <rect x="490" y="56" width="196" height="30" rx="6" fill="#1A1A22" stroke="#6F9AD6" stroke-width="1.5"/>
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="588" y="75.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Qwen3-Coder-30B</text>
   <rect x="490" y="104" width="72" height="30" rx="6" fill="#26262E" stroke="#A06EE0" stroke-width="1.5"/>
@@ -28,9 +28,9 @@
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="656" y="124" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">EPP</text>
   <line x1="564" y1="125" x2="621" y2="125" stroke="#6F9AD6" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#blu)"/>
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="594" y="116" font-size="11.5" font-weight="700" fill="#6F9AD6" text-anchor="middle">ext_proc</text>
-  <!-- ap-northeast-1 -->
+  <!-- San Jose -->
   <rect x="722" y="24" width="220" height="124" rx="6" fill="#22222C" stroke="#6A6A78" stroke-width="2"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="734" y="46" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">ap-northeast-1</text>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="734" y="46" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">San Jose</text>
   <rect x="734" y="56" width="196" height="30" rx="6" fill="#1A1A22" stroke="#6F9AD6" stroke-width="1.5"/>
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="832" y="75.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">gpt-oss-120b</text>
   <rect x="734" y="104" width="72" height="30" rx="6" fill="#26262E" stroke="#A06EE0" stroke-width="1.5"/>
