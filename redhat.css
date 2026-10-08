@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&family=Red+Hat+Text:wght@400;500;700&family=Red+Hat+Mono:wght@400;500;700&display=swap');
 
 :root{
-  --bg:#1F1F1F; --fg:#fff; --sub:#BDBDBD; --grey:#C9C9C9; --greya:#8a8a8a;
-  --purple:#A06EE0; --kvtx:#C9B8F0; --green:#3DDC84; --amber:#E6A53D; --blue:#6f9ad6;
-  --card:#26262E; --bd:#6A6A78; --purpbg:#241d36; --greenbg:#16331F; --red:#EE0000; --cmt:#9aa0a6;
+  --bg:#FFFFFF; --fg:#151515; --sub:#6A6E73; --grey:#4D4D4D; --greya:#8a8a8a;
+  --purple:#6E3FC0; --kvtx:#C9B8F0; --green:#3DDC84; --amber:#E6A53D; --blue:#6f9ad6;
+  --card:#F2F2F2; --bd:#D2D2D2; --purpbg:#F1EAFB; --greenbg:#E6F4EA; --red:#EE0000; --cmt:#9aa0a6;
 }
 section{
   background:var(--bg); color:var(--fg);

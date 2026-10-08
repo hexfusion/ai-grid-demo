@@ -1,94 +1,94 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="966" height="340" viewBox="0 0 966 340" font-family="'Red Hat Text', Helvetica, Arial, sans-serif">
-  <rect width="966" height="340" fill="#1F1F1F"/>
+  <rect width="966" height="340" fill="#FFFFFF"/>
   <defs>
-    <marker id="amb" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#E6A53D"/></marker>
+    <marker id="amb" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#C27C0E"/></marker>
     <marker id="blu" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#6F9AD6"/></marker>
-    <marker id="sl" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#9A9AA8"/></marker>
-    <marker id="grn" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#3DDC84"/></marker>
+    <marker id="sl" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#8A8A8A"/></marker>
+    <marker id="grn" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#2E9E5B"/></marker>
   </defs>
   <!-- Seattle -->
-  <rect x="234" y="24" width="220" height="124" rx="6" fill="#22222C" stroke="#6A6A78" stroke-width="2"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="246" y="46" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">Seattle</text>
-  <rect x="246" y="56" width="196" height="30" rx="6" fill="#1A1A22" stroke="#6F9AD6" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="344" y="75.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Qwen3-Coder-30B</text>
-  <rect x="246" y="104" width="72" height="30" rx="6" fill="#26262E" stroke="#A06EE0" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="282" y="123.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Gateway</text>
-  <rect x="382" y="104" width="60" height="30" rx="6" fill="#1A1A22" stroke="#6F9AD6" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="412" y="124" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">EPP</text>
+  <rect x="234" y="24" width="220" height="124" rx="6" fill="#F5F5F5" stroke="#C7C7C7" stroke-width="2"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="246" y="46" font-size="14" font-weight="700" fill="#151515" text-anchor="start">Seattle</text>
+  <rect x="246" y="56" width="196" height="30" rx="6" fill="#FFFFFF" stroke="#6F9AD6" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="344" y="75.5" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">Qwen3-Coder-30B</text>
+  <rect x="246" y="104" width="72" height="30" rx="6" fill="#F0F0F0" stroke="#A06EE0" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="282" y="123.5" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">Gateway</text>
+  <rect x="382" y="104" width="60" height="30" rx="6" fill="#FFFFFF" stroke="#6F9AD6" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="412" y="124" font-size="13.5" font-weight="700" fill="#151515" text-anchor="middle">EPP</text>
   <line x1="320" y1="125" x2="377" y2="125" stroke="#6F9AD6" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#blu)"/>
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="350" y="116" font-size="11.5" font-weight="700" fill="#6F9AD6" text-anchor="middle">ext_proc</text>
   <!-- Portland -->
-  <rect x="478" y="24" width="220" height="124" rx="6" fill="#22222C" stroke="#6A6A78" stroke-width="2"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="490" y="46" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">Portland</text>
-  <rect x="490" y="56" width="196" height="30" rx="6" fill="#1A1A22" stroke="#6F9AD6" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="588" y="75.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Qwen3-Coder-30B</text>
-  <rect x="490" y="104" width="72" height="30" rx="6" fill="#26262E" stroke="#A06EE0" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="526" y="123.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Gateway</text>
-  <rect x="626" y="104" width="60" height="30" rx="6" fill="#1A1A22" stroke="#6F9AD6" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="656" y="124" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">EPP</text>
+  <rect x="478" y="24" width="220" height="124" rx="6" fill="#F5F5F5" stroke="#C7C7C7" stroke-width="2"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="490" y="46" font-size="14" font-weight="700" fill="#151515" text-anchor="start">Portland</text>
+  <rect x="490" y="56" width="196" height="30" rx="6" fill="#FFFFFF" stroke="#6F9AD6" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="588" y="75.5" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">Qwen3-Coder-30B</text>
+  <rect x="490" y="104" width="72" height="30" rx="6" fill="#F0F0F0" stroke="#A06EE0" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="526" y="123.5" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">Gateway</text>
+  <rect x="626" y="104" width="60" height="30" rx="6" fill="#FFFFFF" stroke="#6F9AD6" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="656" y="124" font-size="13.5" font-weight="700" fill="#151515" text-anchor="middle">EPP</text>
   <line x1="564" y1="125" x2="621" y2="125" stroke="#6F9AD6" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#blu)"/>
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="594" y="116" font-size="11.5" font-weight="700" fill="#6F9AD6" text-anchor="middle">ext_proc</text>
   <!-- San Jose -->
-  <rect x="722" y="24" width="220" height="124" rx="6" fill="#22222C" stroke="#6A6A78" stroke-width="2"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="734" y="46" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="start">San Jose</text>
-  <rect x="734" y="56" width="196" height="30" rx="6" fill="#1A1A22" stroke="#6F9AD6" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="832" y="75.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">gpt-oss-120b</text>
-  <rect x="734" y="104" width="72" height="30" rx="6" fill="#26262E" stroke="#A06EE0" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="770" y="123.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Gateway</text>
-  <rect x="870" y="104" width="60" height="30" rx="6" fill="#1A1A22" stroke="#6F9AD6" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="900" y="124" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">EPP</text>
+  <rect x="722" y="24" width="220" height="124" rx="6" fill="#F5F5F5" stroke="#C7C7C7" stroke-width="2"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="734" y="46" font-size="14" font-weight="700" fill="#151515" text-anchor="start">San Jose</text>
+  <rect x="734" y="56" width="196" height="30" rx="6" fill="#FFFFFF" stroke="#6F9AD6" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="832" y="75.5" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">gpt-oss-120b</text>
+  <rect x="734" y="104" width="72" height="30" rx="6" fill="#F0F0F0" stroke="#A06EE0" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="770" y="123.5" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">Gateway</text>
+  <rect x="870" y="104" width="60" height="30" rx="6" fill="#FFFFFF" stroke="#6F9AD6" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="900" y="124" font-size="13.5" font-weight="700" fill="#151515" text-anchor="middle">EPP</text>
   <line x1="808" y1="125" x2="865" y2="125" stroke="#6F9AD6" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#blu)"/>
   <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="838" y="116" font-size="11.5" font-weight="700" fill="#6F9AD6" text-anchor="middle">ext_proc</text>
   <!-- client -->
-  <rect x="24" y="60" width="180" height="54" rx="6" fill="#22222C" stroke="#6A6A78" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="114" y="82" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Client</text>
-  <text x="114" y="102" font-size="12" font-family="'Red Hat Mono', Menlo, Consolas, monospace" fill="#C9C9C9" text-anchor="middle">model: Qwen3-Coder-30B</text>
+  <rect x="24" y="60" width="180" height="54" rx="6" fill="#F5F5F5" stroke="#C7C7C7" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="114" y="82" font-size="14" font-weight="700" fill="#151515" text-anchor="middle">Client</text>
+  <text x="114" y="102" font-size="12" font-family="'Red Hat Mono', Menlo, Consolas, monospace" fill="#4D4D4D" text-anchor="middle">model: Qwen3-Coder-30B</text>
   <!-- AI Grid: operators and grid gateways -->
-  <rect x="12" y="156" width="942" height="172" rx="6" fill="#1A1A22" stroke="#6A6A78" stroke-width="1.5" stroke-dasharray="6 5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="26" y="321" font-size="11.5" font-weight="700" fill="#C9C9C9" text-anchor="start">AI Grid</text>
+  <rect x="12" y="156" width="942" height="172" rx="6" fill="#FFFFFF" stroke="#C7C7C7" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="26" y="321" font-size="11.5" font-weight="700" fill="#4D4D4D" text-anchor="start">AI Grid</text>
   <!-- hub grid gateway with the EPP inside -->
-  <rect x="24" y="170" width="180" height="62" rx="6" fill="#1A1A22" stroke="#A06EE0" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="114" y="190" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">grid gateway</text>
-  <rect x="36" y="198" width="156" height="28" rx="6" fill="#26262E" stroke="#6F9AD6" stroke-width="1"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="114" y="217" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">EPP</text>
-  <rect x="24" y="256" width="180" height="34" rx="6" fill="#1A1A22" stroke="#9A9AA8" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="114" y="278" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">grid operator</text>
-  <rect x="246" y="190" width="128" height="30" rx="6" fill="#1A1A22" stroke="#A06EE0" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="310" y="209.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">grid gateway</text>
-  <rect x="234" y="256" width="220" height="34" rx="6" fill="#1A1A22" stroke="#9A9AA8" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="344" y="278" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">grid operator</text>
-  <rect x="490" y="190" width="128" height="30" rx="6" fill="#1A1A22" stroke="#A06EE0" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="554" y="209.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">grid gateway</text>
-  <rect x="478" y="256" width="220" height="34" rx="6" fill="#1A1A22" stroke="#9A9AA8" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="588" y="278" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">grid operator</text>
-  <rect x="734" y="190" width="128" height="30" rx="6" fill="#1A1A22" stroke="#A06EE0" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="798" y="209.5" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">grid gateway</text>
-  <rect x="722" y="256" width="220" height="34" rx="6" fill="#1A1A22" stroke="#9A9AA8" stroke-width="1.5"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="832" y="278" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">grid operator</text>
-  <line x1="114" y1="116" x2="114" y2="166" stroke="#3DDC84" stroke-width="2.5" marker-end="url(#grn)"/>
-  <line x1="64" y1="254" x2="64" y2="236" stroke="#9A9AA8" stroke-width="2" marker-end="url(#sl)"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="72" y="248" font-size="11.5" font-weight="700" fill="#C9C9C9" text-anchor="start">owns</text>
-  <line x1="164" y1="254" x2="164" y2="230" stroke="#E6A53D" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
+  <rect x="24" y="170" width="180" height="62" rx="6" fill="#FFFFFF" stroke="#A06EE0" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="114" y="190" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">grid gateway</text>
+  <rect x="36" y="198" width="156" height="28" rx="6" fill="#F0F0F0" stroke="#6F9AD6" stroke-width="1"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="114" y="217" font-size="13.5" font-weight="700" fill="#151515" text-anchor="middle">EPP</text>
+  <rect x="24" y="256" width="180" height="34" rx="6" fill="#FFFFFF" stroke="#8A8A8A" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="114" y="278" font-size="13.5" font-weight="700" fill="#151515" text-anchor="middle">grid operator</text>
+  <rect x="246" y="190" width="128" height="30" rx="6" fill="#FFFFFF" stroke="#A06EE0" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="310" y="209.5" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">grid gateway</text>
+  <rect x="234" y="256" width="220" height="34" rx="6" fill="#FFFFFF" stroke="#8A8A8A" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="344" y="278" font-size="13.5" font-weight="700" fill="#151515" text-anchor="middle">grid operator</text>
+  <rect x="490" y="190" width="128" height="30" rx="6" fill="#FFFFFF" stroke="#A06EE0" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="554" y="209.5" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">grid gateway</text>
+  <rect x="478" y="256" width="220" height="34" rx="6" fill="#FFFFFF" stroke="#8A8A8A" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="588" y="278" font-size="13.5" font-weight="700" fill="#151515" text-anchor="middle">grid operator</text>
+  <rect x="734" y="190" width="128" height="30" rx="6" fill="#FFFFFF" stroke="#A06EE0" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="798" y="209.5" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">grid gateway</text>
+  <rect x="722" y="256" width="220" height="34" rx="6" fill="#FFFFFF" stroke="#8A8A8A" stroke-width="1.5"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="832" y="278" font-size="13.5" font-weight="700" fill="#151515" text-anchor="middle">grid operator</text>
+  <line x1="114" y1="116" x2="114" y2="166" stroke="#2E9E5B" stroke-width="2.5" marker-end="url(#grn)"/>
+  <line x1="64" y1="254" x2="64" y2="236" stroke="#8A8A8A" stroke-width="2" marker-end="url(#sl)"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="72" y="248" font-size="11.5" font-weight="700" fill="#4D4D4D" text-anchor="start">owns</text>
+  <line x1="164" y1="254" x2="164" y2="230" stroke="#C27C0E" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
   <line x1="282" y1="136" x2="282" y2="188" stroke="#8A8A8A" stroke-width="2"/>
-  <line x1="282" y1="254" x2="282" y2="226" stroke="#9A9AA8" stroke-width="2" marker-end="url(#sl)"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="290" y="248" font-size="11.5" font-weight="700" fill="#C9C9C9" text-anchor="start">owns</text>
-  <line x1="412" y1="136" x2="412" y2="250" stroke="#E6A53D" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
+  <line x1="282" y1="254" x2="282" y2="226" stroke="#8A8A8A" stroke-width="2" marker-end="url(#sl)"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="290" y="248" font-size="11.5" font-weight="700" fill="#4D4D4D" text-anchor="start">owns</text>
+  <line x1="412" y1="136" x2="412" y2="250" stroke="#C27C0E" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
   <line x1="526" y1="136" x2="526" y2="188" stroke="#8A8A8A" stroke-width="2"/>
-  <line x1="526" y1="254" x2="526" y2="226" stroke="#9A9AA8" stroke-width="2" marker-end="url(#sl)"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="534" y="248" font-size="11.5" font-weight="700" fill="#C9C9C9" text-anchor="start">owns</text>
-  <line x1="656" y1="136" x2="656" y2="250" stroke="#E6A53D" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
+  <line x1="526" y1="254" x2="526" y2="226" stroke="#8A8A8A" stroke-width="2" marker-end="url(#sl)"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="534" y="248" font-size="11.5" font-weight="700" fill="#4D4D4D" text-anchor="start">owns</text>
+  <line x1="656" y1="136" x2="656" y2="250" stroke="#C27C0E" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
   <line x1="770" y1="136" x2="770" y2="188" stroke="#8A8A8A" stroke-width="2"/>
-  <line x1="770" y1="254" x2="770" y2="226" stroke="#9A9AA8" stroke-width="2" marker-end="url(#sl)"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="778" y="248" font-size="11.5" font-weight="700" fill="#C9C9C9" text-anchor="start">owns</text>
-  <line x1="900" y1="136" x2="900" y2="250" stroke="#E6A53D" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
+  <line x1="770" y1="254" x2="770" y2="226" stroke="#8A8A8A" stroke-width="2" marker-end="url(#sl)"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="778" y="248" font-size="11.5" font-weight="700" fill="#4D4D4D" text-anchor="start">owns</text>
+  <line x1="900" y1="136" x2="900" y2="250" stroke="#C27C0E" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
   <!-- gossip between neighboring operators -->
   <line x1="207" y1="273" x2="231" y2="273" stroke="#8A8A8A" stroke-width="2" stroke-dasharray="2 4"/>
   <line x1="457" y1="273" x2="475" y2="273" stroke="#8A8A8A" stroke-width="2" stroke-dasharray="2 4"/>
   <line x1="701" y1="273" x2="719" y2="273" stroke="#8A8A8A" stroke-width="2" stroke-dasharray="2 4"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="219" y="248" font-size="11.5" font-weight="700" fill="#C9C9C9" text-anchor="middle">gossip</text>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="219" y="248" font-size="11.5" font-weight="700" fill="#4D4D4D" text-anchor="middle">gossip</text>
   <!-- hub operator pulls each site operator's signals -->
-  <line x1="344" y1="292" x2="344" y2="314" stroke="#E6A53D" stroke-width="2" stroke-dasharray="5 4"/>
-  <line x1="588" y1="292" x2="588" y2="314" stroke="#E6A53D" stroke-width="2" stroke-dasharray="5 4"/>
-  <polyline points="832,292 832,314 114,314 114,296" fill="none" stroke="#E6A53D" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
-  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="394" y="307" font-size="11.5" font-weight="700" fill="#E6A53D" text-anchor="middle">signals</text>
+  <line x1="344" y1="292" x2="344" y2="314" stroke="#C27C0E" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="588" y1="292" x2="588" y2="314" stroke="#C27C0E" stroke-width="2" stroke-dasharray="5 4"/>
+  <polyline points="832,292 832,314 114,314 114,296" fill="none" stroke="#C27C0E" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#amb)"/>
+  <text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="394" y="307" font-size="11.5" font-weight="700" fill="#C27C0E" text-anchor="middle">signals</text>
 </svg>
