@@ -2,7 +2,7 @@
 
 An animated walkthrough of AI Grid: one endpoint in front of many llm-d sites.
 
-View it at https://hexfusion.github.io/ai-grid-demo/
+View it at https://hexfusion.io/ai-grid-demo/
 
 - Slide 1 is the AI Grid reference architecture.
 - Slide 2 is an interactive walkthrough. Pick a flow from the dropdown: the grid's layers
