@@ -8,4 +8,4 @@ It is an interactive walkthrough with four demos, picked from the dropdown: mode
 load awareness, affinity, and failover.
 
 The walkthrough is built with [FlowStory](https://github.com/noyitz/flowstory)
-(Apache-2.0), whose engine is embedded in `flow.html`.
+(Apache-2.0), whose engine is embedded in `index.html`.
