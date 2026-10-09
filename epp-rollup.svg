@@ -1,57 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="966" height="384" viewBox="0 0 966 384" font-family="'Red Hat Text', Helvetica, Arial, sans-serif">
-<rect width="966" height="384" fill="#FFFFFF"/>
-<defs><marker id="r" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#C27C0E"/></marker>
-<marker id="t" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#3D6FB6"/></marker></defs>
-<rect x="24" y="20" width="300" height="300" rx="6" fill="#F5F5F5" stroke="#7B45C6" stroke-width="2"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="40" y="46" font-size="16" font-weight="700" fill="#151515">Inside the site</text>
-<text x="40" y="66" font-size="12.5" fill="#4D4D4D">the EPP picks a server for every request</text>
-<rect x="40" y="84" width="88" height="30" rx="6" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="84" y="104" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">vLLM 1</text>
-<text x="140" y="104" font-size="13" fill="#4D4D4D">prompt cached</text>
-<rect x="40" y="122" width="88" height="30" rx="6" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="84" y="142" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">vLLM 2</text>
-<text x="140" y="142" font-size="13" fill="#4D4D4D">3 waiting</text>
-<rect x="40" y="160" width="88" height="30" rx="6" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="84" y="180" font-size="13" font-weight="700" fill="#151515" text-anchor="middle">vLLM 3</text>
-<text x="140" y="180" font-size="13" fill="#4D4D4D">KV cache 85%</text>
-<text x="40" y="218" font-size="12.5" fill="#151515">▸  Prefix cache: reuse a prompt already held</text>
-<text x="40" y="242" font-size="12.5" fill="#151515">▸  Load: running and waiting requests</text>
-<text x="40" y="266" font-size="12.5" fill="#151515">▸  KV cache: memory left for new work</text>
-<text x="40" y="290" font-size="12.5" fill="#151515">▸  Prefill and decode: split long prompts</text>
-<line x1="328" y1="170" x2="362" y2="170" stroke="#C27C0E" stroke-width="2" marker-end="url(#r)"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="345" y="160" font-size="11" font-weight="700" fill="#C27C0E" text-anchor="middle">50 ms</text>
-<rect x="368" y="20" width="250" height="300" rx="6" fill="#FDF3E1" stroke="#C27C0E" stroke-width="2"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="384" y="46" font-size="16" font-weight="700" fill="#151515">One rollup per model</text>
-<text x="384" y="66" font-size="12.5" fill="#4D4D4D">refreshed by the EPP every 50 ms</text>
-<rect x="384" y="84" width="218" height="34" rx="6" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="398" y="106" font-size="13.5" font-weight="700" fill="#151515">Ready servers</text>
-<rect x="384" y="128" width="218" height="34" rx="6" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="398" y="150" font-size="13.5" font-weight="700" fill="#151515">Running per server</text>
-<rect x="384" y="172" width="218" height="34" rx="6" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="398" y="194" font-size="13.5" font-weight="700" fill="#151515">Waiting per server</text>
-<rect x="384" y="216" width="218" height="34" rx="6" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="398" y="238" font-size="13.5" font-weight="700" fill="#151515">In flight per server</text>
-<rect x="384" y="260" width="218" height="34" rx="6" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="398" y="282" font-size="13.5" font-weight="700" fill="#151515">Held by flow control</text>
-<line x1="622" y1="170" x2="656" y2="170" stroke="#3D6FB6" stroke-width="2" marker-end="url(#t)"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="639" y="160" font-size="11" font-weight="700" fill="#3D6FB6" text-anchor="middle">5 s</text>
-<rect x="662" y="20" width="280" height="300" rx="6" fill="#F5F5F5" stroke="#3D6FB6" stroke-width="2"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="678" y="46" font-size="16" font-weight="700" fill="#151515">What the grid works out</text>
-<text x="678" y="66" font-size="12.5" fill="#4D4D4D">per site, off the request path</text>
-<rect x="678" y="84" width="248" height="34" rx="6" fill="#FFFFFF" stroke="#3D6FB6" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="690" y="106" font-size="13.5" font-weight="700" fill="#151515">Healthy</text>
-<text x="914" y="106" font-size="11.5" fill="#4D4D4D" text-anchor="end">at least one ready server</text>
-<rect x="678" y="128" width="248" height="34" rx="6" fill="#FFFFFF" stroke="#3D6FB6" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="690" y="150" font-size="13.5" font-weight="700" fill="#151515">In flight</text>
-<text x="914" y="150" font-size="11.5" fill="#4D4D4D" text-anchor="end">requests the site holds</text>
-<rect x="678" y="172" width="248" height="34" rx="6" fill="#FFFFFF" stroke="#3D6FB6" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="690" y="194" font-size="13.5" font-weight="700" fill="#151515">Ceiling</text>
-<text x="914" y="194" font-size="11.5" fill="#4D4D4D" text-anchor="end">most held with none waiting</text>
-<rect x="678" y="216" width="248" height="34" rx="6" fill="#FFFFFF" stroke="#3D6FB6" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="690" y="238" font-size="13.5" font-weight="700" fill="#151515">Saturation</text>
-<text x="914" y="238" font-size="11.5" fill="#4D4D4D" text-anchor="end">in flight over ceiling</text>
-<rect x="678" y="260" width="248" height="34" rx="6" fill="#FFFFFF" stroke="#3D6FB6" stroke-width="1.6"/>
-<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="690" y="282" font-size="13.5" font-weight="700" fill="#151515">Room</text>
-<text x="914" y="282" font-size="11.5" fill="#4D4D4D" text-anchor="end">saturation below 1</text>
-<text x="24" y="352" font-size="13" fill="#4D4D4D">The grid never sees a single server: it routes on a few numbers per site, and the EPP keeps the per-server choice.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="966" height="340" viewBox="0 0 966 340" font-family="'Red Hat Text', Helvetica, Arial, sans-serif">
+<rect width="966" height="340" fill="#FFFFFF"/>
+<defs>
+<marker id="a" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#C27C0E"/></marker>
+<marker id="b" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#3D6FB6"/></marker>
+<marker id="p" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#7B45C6"/></marker>
+</defs>
+<rect x="24" y="20" width="350" height="300" rx="6" fill="#F5F5F5" stroke="#7B45C6" stroke-width="2" stroke-dasharray="7 5"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="40" y="46" font-size="17" font-weight="700" fill="#7B45C6">InferencePool</text>
+<rect x="44" y="72" width="112" height="52" rx="6" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="100" y="104" font-size="15" font-weight="700" fill="#151515" text-anchor="middle">vLLM</text>
+<line x1="158" y1="98" x2="226" y2="150" stroke="#7B45C6" stroke-width="2" marker-end="url(#p)"/>
+<rect x="44" y="152" width="112" height="52" rx="6" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="100" y="184" font-size="15" font-weight="700" fill="#151515" text-anchor="middle">vLLM</text>
+<line x1="158" y1="178" x2="226" y2="170" stroke="#7B45C6" stroke-width="2" marker-end="url(#p)"/>
+<rect x="44" y="232" width="112" height="52" rx="6" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="100" y="264" font-size="15" font-weight="700" fill="#151515" text-anchor="middle">vLLM</text>
+<line x1="158" y1="258" x2="226" y2="190" stroke="#7B45C6" stroke-width="2" marker-end="url(#p)"/>
+<rect x="232" y="128" width="124" height="84" rx="8" fill="#7B45C6"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="294" y="166" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">EPP</text>
+<text x="294" y="190" font-size="12" fill="#FFFFFF" text-anchor="middle">aggregates</text>
+<line x1="378" y1="170" x2="428" y2="170" stroke="#C27C0E" stroke-width="3" marker-end="url(#a)"/>
+<rect x="434" y="20" width="300" height="300" rx="6" fill="#FDF3E1" stroke="#C27C0E" stroke-width="2"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="452" y="46" font-size="17" font-weight="700" fill="#151515">Signals</text>
+<rect x="452" y="66" width="264" height="32" rx="5" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.4"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="464" y="87" font-size="14.5" font-weight="700" fill="#151515">Ready servers</text>
+<rect x="452" y="107" width="264" height="32" rx="5" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.4"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="464" y="128" font-size="14.5" font-weight="700" fill="#151515">Queue depth</text>
+<rect x="452" y="148" width="264" height="32" rx="5" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.4"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="464" y="169" font-size="14.5" font-weight="700" fill="#151515">Running requests</text>
+<rect x="452" y="189" width="264" height="32" rx="5" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.4"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="464" y="210" font-size="14.5" font-weight="700" fill="#151515">KV cache use</text>
+<rect x="452" y="230" width="264" height="32" rx="5" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.4"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="464" y="251" font-size="14.5" font-weight="700" fill="#151515">Latency and TPOT</text>
+<rect x="452" y="271" width="264" height="32" rx="5" fill="#FFFFFF" stroke="#C27C0E" stroke-width="1.4"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="464" y="292" font-size="14.5" font-weight="700" fill="#151515">Cached prompt tokens</text>
+<line x1="738" y1="170" x2="788" y2="170" stroke="#3D6FB6" stroke-width="3" marker-end="url(#b)"/>
+<rect x="794" y="20" width="148" height="300" rx="6" fill="#F5F5F5" stroke="#3D6FB6" stroke-width="2"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="808" y="46" font-size="17" font-weight="700" fill="#151515">Grid gateway</text>
+<rect x="808" y="66" width="120" height="66" rx="6" fill="#FFFFFF" stroke="#3D6FB6" stroke-width="1.6"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="868" y="105" font-size="18" font-weight="700" fill="#151515" text-anchor="middle">Filter</text>
+<line x1="868" y1="133" x2="868" y2="148" stroke="#3D6FB6" stroke-width="2" marker-end="url(#b)"/>
+<rect x="808" y="150" width="120" height="66" rx="6" fill="#FFFFFF" stroke="#3D6FB6" stroke-width="1.6"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="868" y="189" font-size="18" font-weight="700" fill="#151515" text-anchor="middle">Score</text>
+<line x1="868" y1="217" x2="868" y2="232" stroke="#3D6FB6" stroke-width="2" marker-end="url(#b)"/>
+<rect x="808" y="234" width="120" height="66" rx="6" fill="#FFFFFF" stroke="#3D6FB6" stroke-width="1.6"/>
+<text font-family="'Red Hat Display', Helvetica, Arial, sans-serif" x="868" y="273" font-size="18" font-weight="700" fill="#151515" text-anchor="middle">Pick</text>
 </svg>
